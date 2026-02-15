@@ -50,6 +50,7 @@ Python-Programming
 │   │
 │   ├── 01_programming_elements/
 │   ├── 02_control_flow/
+│   ├── 03_iteration_and_loops/
 │
 └── README.md
 ```
@@ -104,6 +105,33 @@ Python-Programming
 - Complex conditions should prioritize clarity over compactness.
 - Equality edge cases must be checked deliberately in multi-variable comparisons.
 
+
+---
+
+### Day 3 — Iteration & Loop Constructs
+
+**Concepts Implemented**
+
+- for Loop (bounded iteration)
+- while Loop (condition-driven iteration)
+- range(start, stop, step)
+- Loop Initialization & Termination
+- Accumulator Pattern (sum, factorial, counters)
+- break and continue
+- Nested Loops
+- Pattern Printing
+- Mathematical Problems (Prime, Fibonacci, Reverse Number)
+
+**Key Engineering Insights**
+
+- Iteration enables scalable and repeatable execution.
+- Use for when count is known, while when condition controls execution.
+- Improper loop conditions may cause infinite loops.
+- Accumulators are fundamental for aggregation logic.
+- break improves efficiency via early termination.
+- Nested loops increase time complexity (often O(n²)).
+- Prime checks can be optimized to √n.
+- Loop problems build core algorithmic thinking skills.
 
 ---
 
