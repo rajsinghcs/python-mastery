@@ -51,6 +51,7 @@ Python-Programming
 │   ├── 01_programming_elements/
 │   ├── 02_control_flow/
 │   ├── 03_iteration_and_loops/
+│   ├── 04_functions_practice/
 │
 └── README.md
 ```
@@ -135,6 +136,28 @@ Python-Programming
 
 ---
 
+
+### Day 4 — Functions & Modular Programming
+
+**Concepts Implemented**
+
+- Function Definition & Calling (`def`)
+- Parameters & Arguments (Positional & Default)
+- Return Statement (Single & Multiple Values)
+- Built-in vs User-defined Functions
+- Local vs Global Scope
+- Function Reusability & Modularization
+
+**Key Engineering Insights**
+
+- Functions enable reusable, maintainable, and testable code.
+- Abstraction separates *what* from *how*.
+- Local scope prevents side effects.
+- Modular code replaces repetitive scripting logic.
+- Functions form the foundation of scalable programs.
+
+---
+
 # 🧠 Engineering Principles Applied
 
 - Code readability over clever shortcuts
@@ -157,10 +180,10 @@ Python-Programming
 ## 📊 Current Progress
 
 ```
-Week 1  ███████░░░░░░░░░░░░  35%
-Core    ██████████░░░░░░░░░  50%
-OOP     ░░░░░░░░░░░░░░░░░░░  0%
-Projects ░░░░░░░░░░░░░░░░░░  0%
+Week 1   ██████████░░░░░░░░░  50%
+Core     ██████████░░░░░░░░░  50%
+OOP      ░░░░░░░░░░░░░░░░░░░  0%
+Projects ░░░░░░░░░░░░░░░░░░░  0%
 ```
 
 
