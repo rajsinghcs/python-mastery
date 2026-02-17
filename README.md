@@ -52,6 +52,7 @@ Python-Programming
 │   ├── 02_control_flow/
 │   ├── 03_iteration_and_loops/
 │   ├── 04_functions_practice/
+│   ├── 05_lists_and_tuples/
 │
 └── README.md
 ```
@@ -155,6 +156,33 @@ Python-Programming
 - Local scope prevents side effects.
 - Modular code replaces repetitive scripting logic.
 - Functions form the foundation of scalable programs.
+
+---
+
+### Day 5 — Lists & Tuples (Core Data Structures)
+
+**Concepts Implemented**
+
+- List Creation & Indexing
+- Negative Indexing
+- List Slicing
+- List Methods (append(), insert(), remove(), pop(), sort(), reverse())
+- Iterating Over Lists
+- Nested Lists
+- Tuple Creation & Immutability
+- Tuple Packing & Unpacking
+- List vs Tuple Differences
+
+**Key Engineering Insights**
+
+- Lists are mutable and suited for dynamic data manipulation.
+- Tuples are immutable and safer for fixed datasets.
+- Indexing and slicing enable controlled data access.
+- List methods modify objects in place (memory-efficient operations).
+- Tuples provide performance and integrity advantages.
+- Choosing the right data structure impacts readability and efficiency.
+- Nested lists introduce multi-dimensional data handling.
+- Proper iteration patterns improve clarity and maintainability.
 
 ---
 
