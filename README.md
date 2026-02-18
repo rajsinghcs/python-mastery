@@ -53,6 +53,7 @@ Python-Programming
 │   ├── 03_iteration_and_loops/
 │   ├── 04_functions_practice/
 │   ├── 05_lists_and_tuples/
+│   ├── 06_lists_and_tuples_level_2/
 │
 └── README.md
 ```
@@ -186,6 +187,36 @@ Python-Programming
 
 ---
 
+### Day 6 — Lists & Tuples (Intermediate Problem Solving)
+
+**Concepts Implemented**
+
+- Finding Second Largest Element (Without Built-in Sorting)
+- Palindrome Check Using Two-Pointer Technique
+- List Rotation by K Positions
+- Pair Sum Problem (Unique Pairs)
+- Flattening Nested Lists (One Level)
+- Manual Frequency Counting (Without `collections`)
+- Removing All Occurrences of an Element
+- Matrix Transpose Using Nested Lists
+- Sorting List of Tuples by Custom Key
+- Detecting Duplicate Elements (Without Repetition in Output)
+
+**Key Engineering Insights**
+
+- Tracking state with variables improves algorithm clarity.
+- Two-pointer and slicing strategies reduce unnecessary complexity.
+- Avoiding built-in helpers strengthens core logic development.
+- Hash-based lookups optimize pair and frequency problems to O(n).
+- Controlled mutation prevents unintended side effects.
+- Nested iteration requires careful boundary management.
+- Matrix problems strengthen multi-dimensional indexing skills.
+- Custom sorting demonstrates function-based comparison control.
+- Duplicate detection reinforces set-based reasoning and uniqueness handling.
+- Understanding time complexity (O(n), O(n²)) guides better implementation decisions.
+
+---
+
 # 🧠 Engineering Principles Applied
 
 - Code readability over clever shortcuts
@@ -208,8 +239,8 @@ Python-Programming
 ## 📊 Current Progress
 
 ```
-Week 1   ██████████░░░░░░░░░  50%
-Core     ██████████░░░░░░░░░  50%
+Week 1   ███████████████░░░░  80%
+Core     █████████████░░░░░░  70%
 OOP      ░░░░░░░░░░░░░░░░░░░  0%
 Projects ░░░░░░░░░░░░░░░░░░░  0%
 ```
