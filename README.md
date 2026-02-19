@@ -54,6 +54,7 @@ Python-Programming
 │   ├── 04_functions_practice/
 │   ├── 05_lists_and_tuples/
 │   ├── 06_lists_and_tuples_level_2/
+│   ├── 07_Sets_and_Dictionaries/
 │
 └── README.md
 ```
@@ -217,6 +218,37 @@ Python-Programming
 
 ---
 
+### Day 07 — Sets & Dictionaries (Hash-Based Problem Solving)
+
+**Concepts Implemented**
+
+- Removing Duplicates Using Set
+- Set Operations (Union, Intersection, Difference)
+- Anagram Check Using Dictionary
+- Frequency Counting with Hash Map
+- First Non-Repeating Element
+- Two Sum Problem (Optimized with Hashing)
+- Grouping Data Using Dictionary
+- Merging Dictionaries
+- Detecting Duplicates Using Set Tracking
+- Inverting Dictionary (Key-Value Swap)
+
+**Key Engineering Insights**
+
+- Sets provide average O(1) time complexity for membership checks.
+- Dictionaries enable constant-time lookups and efficient state tracking.
+- Hashing eliminates the need for nested loops in many problems.
+- The `get()` method simplifies frequency counting logic.
+- Proper key management prevents collisions and logical errors.
+- Using sets ensures uniqueness without additional validation logic.
+- Dictionary-based solutions scale better than brute-force approaches.
+- Data modeling (choosing key-value structure) improves clarity.
+- Hash maps are foundational for optimizing search and pairing problems.
+- Understanding time-space trade-offs is critical in hash-based design.
+
+---
+
+
 # 🧠 Engineering Principles Applied
 
 - Code readability over clever shortcuts
@@ -233,19 +265,6 @@ Python-Programming
 - 🖥 VS Code
 - 🌿 Git
 - ☁ GitHub
-
----
-
-## 📊 Current Progress
-
-```
-Week 1   ███████████████░░░░  80%
-Core     █████████████░░░░░░  70%
-OOP      ░░░░░░░░░░░░░░░░░░░  0%
-Projects ░░░░░░░░░░░░░░░░░░░  0%
-```
-
-
 
 ---
 
