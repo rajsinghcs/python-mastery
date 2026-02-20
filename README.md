@@ -55,6 +55,7 @@ Python-Programming
 │   ├── 05_lists_and_tuples/
 │   ├── 06_lists_and_tuples_level_2/
 │   ├── 07_Sets_and_Dictionaries/
+│   ├── 08_strings_practice/
 │
 └── README.md
 ```
@@ -248,6 +249,36 @@ Python-Programming
 
 ---
 
+### Day 08 — Strings (Core + Hashing Applications)
+
+**Concepts Implemented**
+
+- String Traversal & Character Indexing
+- String Immutability & Memory Behavior
+- Manual String Reversal Techniques
+- Palindrome Validation (Two-Pointer Approach)
+- Character Frequency Mapping (Hash Map)
+- Removing Duplicate Characters (Order Preservation)
+- Anagram Verification Using Hashing
+- First Non-Repeating Character Detection
+- Basic Substring Search (Brute-Force Matching)
+- Word Manipulation (`split()`, `join()`, `replace()`, `lower()`)
+
+**Key Engineering Insights**
+
+- Strings are immutable, meaning every modification creates a new object.
+- Two-pointer strategy reduces unnecessary comparisons in palindrome checks.
+- Hash maps optimize character counting to O(n) time.
+- Repeated string concatenation is inefficient compared to `join()`.
+- Order preservation requires combining sets with controlled iteration.
+- Substring search introduces pattern-matching fundamentals (O(n × m)).
+- Case normalization improves reliability in string comparisons.
+- Frequency-based logic is foundational for many interview problems.
+- Choosing between brute-force and hash-based approaches impacts scalability.
+- Awareness of time complexity prevents hidden O(n²) inefficiencies.
+
+
+---
 
 # 🧠 Engineering Principles Applied
 
