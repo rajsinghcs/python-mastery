@@ -56,6 +56,7 @@ Python-Programming
 │   ├── 06_lists_and_tuples_level_2/
 │   ├── 07_Sets_and_Dictionaries/
 │   ├── 08_strings_practice/
+│   ├── 09_strings_practice_level_2/
 │
 └── README.md
 ```
@@ -277,8 +278,37 @@ Python-Programming
 - Choosing between brute-force and hash-based approaches impacts scalability.
 - Awareness of time complexity prevents hidden O(n²) inefficiencies.
 
-
 ---
+
+### Day 09 — Strings (Level 2: Sliding Window & Pattern Optimization)
+
+**Concepts Implemented**
+
+- Sliding Window (Fixed & Variable Length)
+- Longest Substring Without Repeating Characters
+- Minimum Window Substring (Optimized Matching)
+- Grouping Anagrams via Canonical Hash Keys
+- Expand Around Center (Longest Palindromic Substring)
+- Subsequence Verification (Two-Pointer Scan)
+- String Compression (In-Place Simulation Logic)
+- Anagram Index Detection in Large Strings
+- Frequency Map Synchronization (Have vs Need Pattern)
+- Window Shrinking & Expansion Strategy
+
+**Key Engineering Insights**
+
+- Sliding window transforms nested-loop substring problems from O(n²) to O(n).
+- Maintaining window invariants (have == need) enables precise shrink conditions.
+- Hash-based canonical representation (sorted string) simplifies anagram grouping.
+- Expand-around-center reduces brute-force palindrome checking from O(n³) to O(n²).
+- Subsequence validation requires only linear scanning without extra space.
+- Efficient window management depends on incremental updates rather than recomputation.
+- Tracking frequency deltas avoids full hash comparisons in optimized solutions.
+- Distinguishing between fixed-size and dynamic windows is critical for correctness.
+- In-place compression logic simulates memory-constrained environments.
+- Advanced string problems are primarily pattern-recognition exercises over frequency + window control.
+
+--- 
 
 # 🧠 Engineering Principles Applied
 
